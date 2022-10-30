@@ -1,0 +1,28 @@
+.background{
+background-image: linear-gradient(var(--black1),var(--black2)), url(/img/background.jpeg) ;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: var(--backcolor)
+
+}
+
+:root{
+--main-color:#e50914;
+--white:#fff;
+--black1:rgba(0, 0, 0, 0.76);
+--black2:rgba(0, 0, 0, 0.464);
+--backcolor:black;
+--linecolor:#705f5f
+
+}
+.line {
+border-bottom: 8px solid var(--linecolor);
+width: 100%;
+padding: 50px 5%;
+margin-top: 54px;
+
+}
+.coll{
+margin-left: 789px;
+margin-top: 125px;
+}
